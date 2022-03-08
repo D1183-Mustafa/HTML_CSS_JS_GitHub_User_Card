@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, white, grey);
+}
+.container {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    form {
+        width: 25vw;
+    }
+}
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+
+
+}
+#ikon {
+    display: flex;
+    justify-content: center;
+    transition: all 1s;
+}
+#ikon:hover {
+    color: red;
+}
+
+#container2 {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
